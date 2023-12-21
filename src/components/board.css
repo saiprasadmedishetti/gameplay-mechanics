@@ -1,0 +1,13 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  gap: 0.5rem;
+}
+
+.cell {
+  height: 80px;
+  font-size: 3rem;
+  border: 1px solid #acacac;
+  cursor: pointer;
+  user-select: none;
+}
